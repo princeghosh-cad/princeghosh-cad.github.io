@@ -92,6 +92,30 @@
     .card p{color:var(--muted); margin:0}
     ul{color:var(--muted); padding-left:18px}
     footer{margin-top:40px;color:var(--muted);font-size:13px;text-align:center}
+    .principle{
+  position:relative;
+  padding-left:30px;
+  color:#9fb0c3;
+  line-height:1.7;
+}
+.principle::before{
+  content:"“";
+  position:absolute;
+  left:0;
+  top:-10px;
+  font-size:60px;
+  color:#66e3ff;
+  opacity:0.4;
+}
+.principle::after{
+  content:"”";
+  position:absolute;
+  right:0;
+  bottom:-20px;
+  font-size:60px;
+  color:#66e3ff;
+  opacity:0.4;
+}
   </style>
 </head>
 
@@ -156,7 +180,16 @@
       <div class="card"><h3>Run it with metrics</h3><p>Dashboards and data drive decisions, not assumptions.</p></div>
     </div>
   </section>
-
+  
+<section id="principles">
+  <div class="card" style="margin-top:20px;">
+    <div class="principle">
+      Many teams build platforms by focusing only on the task in front of them — solving for the immediate design without stepping back to understand how the full business cycle connects.
+      <br><br>
+      I approach things differently. My goal is to understand the business, the ultimate objective, and the shared purpose across teams. From there, I bring people and functions together to design systems that don’t just work today, but scale with the organization tomorrow.
+    </div>
+  </div>
+</section>
   <section id="impact">
     <div class="sectionTitle"><h2>Platform & Operational Impact</h2><div class="small">Execution</div></div>
     <div class="card">
